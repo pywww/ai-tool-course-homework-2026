@@ -1,0 +1,46 @@
+# 操作系统文件
+.DS_Store
+Thumbs.db
+
+# 编辑器文件
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 临时文件
+tmp/
+temp/
+
+# 日志文件
+*.log
+logs/
+
+# 编译产物
+build/
+dist/
+*.pyc
+__pycache__/
+
+# 环境文件
+.env
+.env.local
+.env.*.local
+
+# 包管理器文件
+node_modules/
+.pnpm-store/
+.yarn/
+
+# 测试文件
+coverage/
+.nyc_output/
+
+# 其他
+*.zip
+*.tar.gz
+*.rar
+
+# 课程相关
+student_private/
