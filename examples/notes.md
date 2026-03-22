@@ -14,11 +14,11 @@
 5. 推送到Gitee：`git push origin homework/姓名_学号`
 6. 创建Pull Request
 
-#### Gitee Pages个人网页创建
-1. 创建仓库：`你的用户名.gitee.io`
+#### GitHub Pages个人网页创建
+1. 创建仓库：`你的用户名.github.io`
 2. 创建 `index.html` 文件
-3. 在"服务"中开启Gitee Pages
-4. 访问：`https://你的用户名.gitee.io`
+3. 在"Settings"中开启GitHub Pages
+4. 访问：`https://你的用户名.github.io`
 
 ### 第三讲：AI工具使用
 
