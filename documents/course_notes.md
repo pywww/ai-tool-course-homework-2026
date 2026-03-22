@@ -2,18 +2,20 @@
 
 ## 课程目标
 
-- 掌握基本的Git和GitHub操作
+- 掌握基本的Git和Gitee操作
 - 了解常用AI工具的使用方法
 - 培养创新思维和实践能力
 - 完成一个小型AI项目
 
 ## 课程内容
 
-### 第一部分：Git与GitHub基础
-- GitHub账号注册与设置
+### 第一部分：Git与Gitee基础
+- Gitee账号注册与设置
 - Git安装与配置
 - 基本Git命令（clone, add, commit, push）
 - 分支管理与Pull Request
+- **多人协作与冲突解决**（新增）
+- **Gitee Pages个人网页创建**（新增）
 
 ### 第二部分：AI工具介绍
 - 大型语言模型（LLM）工具
