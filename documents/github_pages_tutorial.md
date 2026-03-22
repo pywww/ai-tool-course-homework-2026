@@ -1,10 +1,10 @@
-# Gitee Pages 个人网页创建详细教程
+# GitHub Pages 个人网页创建详细教程
 
 ## 📖 目录
-- [什么是 Gitee Pages](#什么是-gitee-pages)
+- [什么是 GitHub Pages](#什么是-github-pages)
 - [第一步：创建仓库](#第一步创建仓库)
 - [第二步：创建你的第一个网页](#第二步创建你的第一个网页)
-- [第三步：开启 Gitee Pages 服务](#第三步开启-gitee-pages-服务)
+- [第三步：开启 GitHub Pages 服务](#第三步开启-github-pages-服务)
 - [第四步：访问你的网页](#第四步访问你的网页)
 - [进阶：如何更新网页](#进阶如何更新网页)
 - [更多创意玩法](#更多创意玩法)
@@ -12,9 +12,9 @@
 
 ---
 
-## 什么是 Gitee Pages
+## 什么是 GitHub Pages
 
-Gitee Pages 是 Gitee 提供的**免费静态网页托管服务**。你可以用它来：
+GitHub Pages 是 GitHub 提供的**免费静态网页托管服务**。你可以用它来：
 - 📝 创建个人博客
 - 🎨 展示个人作品
 - 📚 分享学习笔记
@@ -23,40 +23,39 @@ Gitee Pages 是 Gitee 提供的**免费静态网页托管服务**。你可以用
 
 它的优点：
 - ✅ 完全免费
-- ✅ 国内访问速度快
+- ✅ 全球访问速度快
 - ✅ 操作简单
 - ✅ 支持自定义域名
+- ✅ 集成GitHub版本控制
 
 ---
 
 ## 第一步：创建仓库
 
-### 1.1 登录 Gitee
-打开浏览器，访问 [https://gitee.com](https://gitee.com) 并登录你的账号。
+### 1.1 登录 GitHub
+打开浏览器，访问 [https://github.com](https://github.com) 并登录你的账号。
 
 ### 1.2 新建仓库
 1. 点击右上角的 **"+"** 图标
-2. 选择 **"新建仓库"**
+2. 选择 **"New repository"**
 
 ### 1.3 填写仓库信息（非常重要！）
 
 | 项目 | 填写内容 | 说明 |
 |------|---------|------|
-| 仓库名称 | `你的用户名.gitee.io` | **必须**这样命名！ |
-| 仓库介绍 | （可选）我的个人网页 | 简单描述一下 |
-| 是否公开 | 公开 | 必须选择公开 |
-| 初始化仓库 | ✅ 勾选 | 使用Readme文件初始化 |
-| .gitignore | 不需要 | 留空即可 |
-| 开源许可证 | 不需要 | 留空即可 |
+| Repository name | `你的用户名.github.io` | **必须**这样命名！ |
+| Description | （可选）我的个人网页 | 简单描述一下 |
+| Public/Private | Public | 必须选择公开 |
+| Initialize with a README | ✅ 勾选 | 使用Readme文件初始化 |
 
 **示例**：
-如果你的 Gitee 用户名是 `zhangsan`，那么仓库名就必须是 `zhangsan.gitee.io`
+如果你的 GitHub 用户名是 `zhangsan`，那么仓库名就必须是 `zhangsan.github.io`
 
 ### 1.4 创建仓库
-点击 **"创建"** 按钮。
+点击 **"Create repository"** 按钮。
 
 **✅ 成功标准**：
-你现在有了一个名为 `你的用户名.gitee.io` 的仓库！
+你现在有了一个名为 `你的用户名.github.io` 的仓库！
 
 ---
 
@@ -66,8 +65,8 @@ Gitee Pages 是 Gitee 提供的**免费静态网页托管服务**。你可以用
 点击你刚创建的仓库，进入仓库主页。
 
 ### 2.2 新建文件
-1. 点击仓库页面上的 **"新建文件"** 按钮
-2. 在"文件名"输入框中输入：`index.html`
+1. 点击仓库页面上的 **"Add file"** → **"Create new file"**
+2. 在"Name your file..."输入框中输入：`index.html`
    - 注意：文件名必须是 `index.html`，这是主页的默认文件名
 
 ### 2.3 编写网页代码
@@ -174,7 +173,7 @@ Gitee Pages 是 Gitee 提供的**免费静态网页托管服务**。你可以用
         <div class="header">
             <div class="avatar">👤</div>
             <h1>欢迎来到我的个人网页！</h1>
-            <p>这是我用 Gitee Pages 创建的第一个网页 🎉</p>
+            <p>这是我用 GitHub Pages 创建的第一个网页 🎉</p>
         </div>
         
         <div class="content">
@@ -202,7 +201,7 @@ Gitee Pages 是 Gitee 提供的**免费静态网页托管服务**。你可以用
             <div class="section">
                 <h2>📚 学习目标</h2>
                 <ul class="info-list">
-                    <li>✅ 掌握 Git 和 Gitee 的使用</li>
+                    <li>✅ 掌握 Git 和 GitHub 的使用</li>
                     <li>✅ 学习 AI 工具的应用</li>
                     <li>✅ 完成一个有趣的项目</li>
                     <li>⬜ 更多目标等你来添加...</li>
@@ -213,13 +212,13 @@ Gitee Pages 是 Gitee 提供的**免费静态网页托管服务**。你可以用
                 <h2>📧 联系方式</h2>
                 <div class="social-links">
                     <a href="mailto:你的邮箱@example.com">📧 邮箱</a>
-                    <a href="https://gitee.com/你的用户名">🔗 Gitee</a>
+                    <a href="https://github.com/你的用户名">🔗 GitHub</a>
                 </div>
             </div>
         </div>
         
         <div class="footer">
-            <p>&copy; 2024 我的个人网页 | Made with ❤️ using Gitee Pages</p>
+            <p>&copy; 2024 我的个人网页 | Made with ❤️ using GitHub Pages</p>
         </div>
     </div>
 </body>
@@ -245,79 +244,80 @@ Gitee Pages 是 Gitee 提供的**免费静态网页托管服务**。你可以用
 - 修改页面颜色（在 `<style>` 部分）
 
 ### 2.5 提交文件
-1. 在页面底部的"提交信息"中输入：`创建个人主页`
-2. 点击 **"提交"** 按钮
+1. 在页面底部的"Commit message"中输入：`创建个人主页`
+2. 点击 **"Commit new file"** 按钮
 
 ---
 
-## 第三步：开启 Gitee Pages 服务
+## 第三步：开启 GitHub Pages 服务
 
-### 3.1 进入服务设置
-1. 在仓库页面，点击顶部的 **"服务"** 选项卡
-2. 在左侧菜单中找到并点击 **"Gitee Pages"**
+### 3.1 进入设置页面
+1. 在仓库页面，点击顶部的 **"Settings"** 选项卡
+2. 在左侧菜单中找到并点击 **"Pages"**
 
 ### 3.2 配置 Pages 服务
 填写以下信息：
 
 | 配置项 | 选择/填写 |
 |--------|----------|
-| 部署分支 | `master` |
-| 部署目录 | （留空，使用根目录） |
+| Source | Deploy from a branch |
+| Branch | `main`（或 `master`） |
+| Folder | `/ (root)` |
 
-### 3.3 启动服务
-点击 **"启动"** 按钮。
+### 3.3 保存设置
+点击 **"Save"** 按钮。
 
 ### 3.4 等待部署
-页面会显示"部署中..."，通常需要等待 1-2 分钟。
+页面会显示"Your site is ready to be published"，首次部署通常需要等待 5-10 分钟。
 
 **✅ 成功标准**：
-页面显示"已开启 Gitee Pages"，并且提供了访问地址！
+页面显示"Your site is live at https://你的用户名.github.io"，并且提供了访问地址！
 
 ---
 
 ## 第四步：访问你的网页
 
 ### 4.1 获取访问地址
-在 Gitee Pages 设置页面，你会看到你的网页地址：
+在 GitHub Pages 设置页面，你会看到你的网页地址：
 
 ```
-https://你的用户名.gitee.io
+https://你的用户名.github.io
 ```
 
 **示例**：
 ```
-https://zhangsan.gitee.io
+https://zhangsan.github.io
 ```
 
 ### 4.2 访问网页
 在浏览器中输入这个地址，你就能看到你的个人网页了！
 
-**注意**：有时候可能需要等待 2-3 分钟才能正常访问，这是正常的，请耐心等待。
+**注意**：有时候可能需要等待 5-10 分钟才能正常访问，这是正常的，请耐心等待。
 
 ---
 
 ## 进阶：如何更新网页
 
-### 方法一：在 Gitee 网页上直接编辑（适合小修改）
+### 方法一：在 GitHub 网页上直接编辑（适合小修改）
 
 1. 进入你的仓库
 2. 点击要修改的文件（比如 `index.html`）
 3. 点击编辑图标（铅笔形状 ✏️）
 4. 修改内容
 5. 在底部填写提交信息，比如"更新个人信息"
-6. 点击 **"提交"**
+6. 点击 **"Commit changes"**
 
 ### 方法二：使用 Git 在本地编辑（推荐，适合大修改）
 
 #### 1. 克隆仓库到本地
 打开 Git Bash 或终端，执行：
 ```bash
-git clone https://gitee.com/你的用户名/你的用户名.gitee.io.git
+git clone https://github.com/你的用户名/你的用户名.github.io.git
 ```
 
 #### 2. 进入仓库目录
 ```bash
-cd 你的用户名.gitee.io
+cd 你的用户名.github.io
 ```
 
 #### 3. 修改文件
@@ -327,10 +327,10 @@ cd 你的用户名.gitee.io
 ```bash
 git add .
 git commit -m "更新网页内容"
-git push origin master
+git push origin main
 ```
 
-完成！等待 1-2 分钟，你的网页就会自动更新了！
+完成！等待几分钟，你的网页就会自动更新了！
 
 ---
 
@@ -377,6 +377,7 @@ git push origin master
 - 添加访客计数器
 - 添加音乐播放器
 - 添加留言板
+- 添加社交媒体链接
 - 等等...
 
 ---
@@ -386,31 +387,33 @@ git push origin master
 ### Q: 我的网页访问显示 404 Not Found，怎么办？
 
 **A:** 请检查以下几点：
-1. 仓库名称是否正确？必须是 `你的用户名.gitee.io`
-2. 是否已经开启了 Gitee Pages 服务？
+1. 仓库名称是否正确？必须是 `你的用户名.github.io`
+2. 是否已经开启了 GitHub Pages 服务？
 3. 是否有 `index.html` 文件？
-4. 等待 2-3 分钟再试，有时候部署需要时间
+4. 等待 5-10 分钟再试，有时候部署需要时间
+5. 检查浏览器是否需要清除缓存（按 Ctrl+F5 强制刷新）
 
 ### Q: 网页更新后，为什么看到的还是旧内容？
 
 **A:** 这是浏览器缓存的问题，尝试：
 1. 按 `Ctrl + F5` 强制刷新页面
 2. 或者清除浏览器缓存后再访问
+3. 等待几分钟让 GitHub Pages 重新部署
 
 ### Q: 可以绑定自己的域名吗？
 
-**A:** 可以！在 Gitee Pages 设置页面可以添加自定义域名。你需要：
+**A:** 可以！在 GitHub Pages 设置页面可以添加自定义域名。你需要：
 1. 拥有一个域名
-2. 在域名 DNS 解析中添加 CNAME 记录指向 `你的用户名.gitee.io`
-3. 在 Gitee Pages 设置中填写你的域名
+2. 在域名 DNS 解析中添加 CNAME 记录指向 `你的用户名.github.io`
+3. 在 GitHub Pages 设置中填写你的域名
 
-### Q: Gitee Pages 支持动态网页吗（比如 PHP、Python）？
+### Q: GitHub Pages 支持动态网页吗（比如 PHP、Python）？
 
-**A:** 不支持。Gitee Pages 只支持静态网页（HTML、CSS、JavaScript）。
+**A:** 不支持。GitHub Pages 只支持静态网页（HTML、CSS、JavaScript）。
 
 ### Q: 仓库必须公开吗？
 
-**A:** 是的，Gitee Pages 要求仓库必须是公开的。
+**A:** 是的，GitHub Pages 要求仓库必须是公开的。
 
 ### Q: 可以删除网页重新开始吗？
 
@@ -421,7 +424,7 @@ git push origin master
 ### Q: 还有其他问题怎么办？
 
 **A:** 
-1. 查看 [Gitee Pages 官方文档](https://gitee.com/help/articles/4136)
+1. 查看 [GitHub Pages 官方文档](https://docs.github.com/cn/pages)
 2. 询问老师和同学
 3. 在网上搜索相关问题
 

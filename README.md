@@ -335,27 +335,27 @@ git push origin homework/张三_2023001
 
 ---
 
-## 🎨 第七部分：创建个人网页教程（Gitee Pages）
+## 🎨 第七部分：创建个人网页教程（GitHub Pages）
 
-Gitee Pages 是Gitee提供的免费静态网页托管服务，你可以用它来创建个人博客、项目展示页面等。
+GitHub Pages 是GitHub提供的免费静态网页托管服务，你可以用它来创建个人博客、项目展示页面等。
 
 ### 第一步：创建专门的仓库
 
-1. 登录Gitee，点击右上角的 "+" 号，选择"新建仓库"
-2. 仓库名称**必须**是：`你的用户名.gitee.io`
-   - 例如：如果你的Gitee用户名是 `zhangsan`，仓库名就叫 `zhangsan.gitee.io`
-3. 选择"公开"
-4. 勾选"初始化仓库"并选择"使用Readme文件初始化"
-5. 点击"创建"
+1. 登录GitHub，点击右上角的 "+" 号，选择"New repository"
+2. 仓库名称**必须**是：`你的用户名.github.io`
+   - 例如：如果你的GitHub用户名是 `zhangsan`，仓库名就叫 `zhangsan.github.io`
+3. 选择"Public"
+4. 勾选"Initialize this repository with a README"
+5. 点击"Create repository"
 
-**✅ 成功标准**：你有了一个名为 `你的用户名.gitee.io` 的仓库。
+**✅ 成功标准**：你有了一个名为 `你的用户名.github.io` 的仓库。
 
 ---
 
 ### 第二步：创建第一个网页
 
-1. 进入你的 `你的用户名.gitee.io` 仓库
-2. 点击 "新建文件"
+1. 进入你的 `你的用户名.github.io` 仓库
+2. 点击 "Add file" → "Create new file"
 3. 文件名输入：`index.html`（这是主页）
 4. 在文件内容中输入以下代码：
 
@@ -375,7 +375,7 @@ Gitee Pages 是Gitee提供的免费静态网页托管服务，你可以用它来
         }
         .header {
             text-align: center;
-            background-color: #4CAF50;
+            background-color: #24292e;
             color: white;
             padding: 20px;
             border-radius: 10px;
@@ -397,7 +397,7 @@ Gitee Pages 是Gitee提供的免费静态网页托管服务，你可以用它来
 <body>
     <div class="header">
         <h1>欢迎来到我的个人网页！</h1>
-        <p>这是我用Gitee Pages创建的第一个网页</p>
+        <p>这是我用GitHub Pages创建的第一个网页</p>
     </div>
     
     <div class="content">
@@ -416,62 +416,62 @@ Gitee Pages 是Gitee提供的免费静态网页托管服务，你可以用它来
     </div>
     
     <div class="footer">
-        <p>&copy; 2024 我的个人网页 | Powered by Gitee Pages</p>
+        <p>&copy; 2024 我的个人网页 | Powered by GitHub Pages</p>
     </div>
 </body>
 </html>
 ```
 
-5. 点击"提交"按钮
+5. 在页面底部填写提交信息，点击"Commit new file"按钮
 
 ---
 
-### 第三步：开启Gitee Pages服务
+### 第三步：开启GitHub Pages服务
 
-1. 在你的仓库页面，点击顶部的 "服务" 选项卡
-2. 在左侧菜单中选择 "Gitee Pages"
-3. 在 "部署分支" 中选择 `master`
-4. 在 "部署目录" 中留空（表示使用根目录）
-5. 点击 "启动" 按钮
+1. 在你的仓库页面，点击顶部的 "Settings" 选项卡
+2. 在左侧菜单中找到并点击 "Pages"
+3. 在 "Source" 部分，选择 "Deploy from a branch"
+4. 在 "Branch" 下拉菜单中选择 `main`（或 `master`），文件夹选择 `/ (root)`
+5. 点击 "Save"
 
-**✅ 成功标准**：页面显示"已开启 Gitee Pages"，并提供访问地址。
+**✅ 成功标准**：页面显示"Your site is live at https://你的用户名.github.io"。
 
 ---
 
 ### 第四步：访问你的个人网页
 
-等待1-2分钟后，你就可以通过以下地址访问你的网页了：
+等待几分钟后（首次部署可能需要5-10分钟），你就可以通过以下地址访问你的网页了：
 
 ```
-https://你的用户名.gitee.io
+https://你的用户名.github.io
 ```
 
 **示例**：
 ```
-https://zhangsan.gitee.io
+https://zhangsan.github.io
 ```
 
 ---
 
 ### 进阶：如何更新你的网页
 
-#### 方法一：在Gitee网页上直接编辑
+#### 方法一：在GitHub网页上直接编辑
 1. 进入你的仓库
 2. 点击要修改的文件（如 `index.html`）
 3. 点击编辑图标（铅笔形状）
 4. 修改内容
-5. 点击"提交"
+5. 在页面底部填写提交信息，点击"Commit changes"
 
 #### 方法二：使用Git在本地编辑（推荐）
 
 1. **克隆仓库到本地**：
    ```bash
-   git clone https://gitee.com/你的用户名/你的用户名.gitee.io.git
+   git clone https://github.com/你的用户名/你的用户名.github.io.git
    ```
 
 2. **进入仓库目录**：
    ```bash
-   cd 你的用户名.gitee.io
+   cd 你的用户名.github.io
    ```
 
 3. **修改文件**（用任何文本编辑器）
@@ -480,7 +480,7 @@ https://zhangsan.gitee.io
    ```bash
    git add .
    git commit -m "更新网页内容"
-   git push origin master
+   git push origin main
    ```
 
 ---
@@ -500,23 +500,23 @@ https://zhangsan.gitee.io
 3. **使用模板**：
    - 在GitHub上搜索 "HTML5 template" 或 "static website template"
    - 下载喜欢的模板
-   - 上传到你的Gitee Pages仓库
+   - 上传到你的GitHub Pages仓库
 
 ---
 
-### Gitee Pages 常见问题
+### GitHub Pages 常见问题
 
 **Q: 我的网页访问显示404怎么办？**
 A: 请确保：
-- 仓库名正确（必须是 `你的用户名.gitee.io`）
-- 已经开启了Gitee Pages服务
-- 等待2-3分钟让服务生效
+- 仓库名正确（必须是 `你的用户名.github.io`）
+- 已经开启了GitHub Pages服务
+- 等待5-10分钟让服务生效（首次部署需要时间）
 
 **Q: 可以绑定自定义域名吗？**
-A: 可以！在Gitee Pages设置页面可以添加自定义域名。
+A: 可以！在GitHub Pages设置页面可以添加自定义域名。
 
 **Q: 网页更新后多久能看到变化？**
-A: 通常1-2分钟内就会更新。
+A: 通常几分钟内就会更新，有时需要清除浏览器缓存才能看到最新内容。
 
 ---
 
@@ -651,7 +651,7 @@ git reset --soft HEAD~1
 - [ ] 成功推送分支到Gitee
 - [ ] 成功创建Pull Request
 - [ ] 能够独立完成一次作业提交
-- [ ] 创建了自己的Gitee Pages个人网页
+- [ ] 创建了自己的GitHub Pages个人网页
 
 ---
 
