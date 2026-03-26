@@ -95,27 +95,33 @@ git config --global --list
 
 ---
 
-## 🌿 第二部分：正确的仓库克隆方法
+## 🌿 第二部分：正确的仓库克隆方法（先Fork，再克隆）
 
-### 第一步：获取仓库链接
+### 第一步：Fork（派生）老师的仓库
 1. 访问老师提供的Gitee仓库页面
+2. 点击页面右上角的 **"Fork"** 按钮
+3. 在弹出的窗口中，选择你自己的Gitee账号作为目标
+4. 点击确认，等待Gitee为你创建一个属于你的仓库副本（你会发现仓库名左上角变成了 `你的用户名 / 仓库名称`）
+
+### 第二步：获取你自己的仓库链接
+1. 在**你刚刚Fork过来的仓库页面**中
 2. 点击右上角的 **"克隆/下载"** 按钮
 3. 确保选择 **HTTPS** 选项（对新手更简单）
 4. 点击复制图标复制链接
 
-### 第二步：克隆仓库到本地
+### 第三步：克隆你的专属仓库到本地
 
 1. 在电脑上选择一个合适的文件夹存放作业（比如桌面的 `Homework` 文件夹）
 2. 右键点击该文件夹，选择 **"Git Bash Here"**（Windows）或打开终端进入该目录
-3. 执行克隆命令：
+3. 执行克隆命令（**注意：这里的链接是你自己的仓库，不是老师的！**）：
 
 ```bash
-git clone https://gitee.com/老师的用户名/仓库名称.git
+git clone https://gitee.com/你的用户名/仓库名称.git
 ```
 
 **示例**：
 ```bash
-git clone https://gitee.com/teacher/ai-tool-course-homework-2026.git
+git clone https://gitee.com/zhang_san_2025/ai-tool-course-homework-2026.git
 ```
 
 4. 进入仓库目录：
