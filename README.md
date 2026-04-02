@@ -632,7 +632,7 @@ flowchart TD
     B3 --> C[创建第一次作业分支<br/>homework/姓名_学号]
     C --> D[完成作业]
     D --> E{准备提交?}
-    E -->|是| G[在作业分支直接<br/>git pull upstream master]
+    E -->|是| G[在作业分支直接<br/>git fetch upstream<br/>git merge upstream/master]
     G --> H{有冲突?}
     H -->|是| I[手动解决冲突]
     I --> J[git add + git commit]
@@ -641,7 +641,7 @@ flowchart TD
     K --> L[向老师仓库提交Pull Request]
     L --> M[等待老师审核]
     M -.-> N[做第二次作业]
-    N --> F2_2[切换到本地master<br/>git pull upstream master]
+    N --> F2_2[切换到本地master<br/>git fetch upstream<br/>git merge upstream/master]
     F2_2 --> C2[创建新的作业分支<br/>homework/姓名_作业2]
     C2 --> D
 ```
@@ -756,7 +756,7 @@ git reset --soft HEAD~1
 - [ ] 成功克隆自己Fork的仓库到本地
 - [ ] 能够创建自己的个人分支
 - [ ] 成功配置了老师的仓库作为 upstream
-- [ ] 理解提交前同步的重要性（使用 `git pull upstream master`）
+- [ ] 理解提交前同步的重要性（使用 `git fetch upstream` 和 `git merge upstream/master`）
 - [ ] 知道如何解决简单的合并冲突
 - [ ] 成功推送分支到自己的Gitee仓库
 - [ ] 成功向老师仓库提交Pull Request
